@@ -9,7 +9,7 @@ In this assignment we have to provide a WSDL service, which manages People's Hea
 ## Important links
 
 * [Server on Heroku][1]
-* [Client][2]
+* [Server][2]
 
 ## WSDL Functions handle by the server:
 
@@ -31,5 +31,5 @@ The client log is available [here][3]
 
 
 [1]: https://rocky-harbor-4297.herokuapp.com/ws/people?wsdl
-[2]: https://github.com/DamianFox/introsde-2015-assignment-3-client
+[2]: https://github.com/DamianFox/introsde-2015-assignment-3-server
 [3]: https://github.com/DamianFox/introsde-2015-assignment-3-client/blob/master/client.log
