@@ -1,0 +1,109 @@
+Server deployed at https://rocky-harbor-4297.herokuapp.com/ws/people?wsdl
+--------------------------------- 
+
+METHOD #1: readPersonList() 
+
+0) Chuck
+0) Norris
+0) 1990-01-01
+///////// 
+1) Jackie
+1) Chan
+1) 1970-04-12
+///////// 
+2) Sebastian
+2) Vettel
+2) 1981-05-13
+///////// 
+3) Lionel
+3) Messi
+3) 1982-06-14
+///////// 
+4) Barack
+4) Obama
+4) 1965-07-15
+///////// 
+5) Cristhian
+5) Parra
+5) 1965-09-30
+///////// 
+6) Damiano
+6) Fossa
+6) 1991-03-23
+///////// 
+7) Diego
+7) Maradona
+7) 1981-06-26
+///////// 
+8) Maurizio
+8) Marchese
+8) 1967-01-01
+///////// 
+--------------------------------- 
+METHOD #2: readPerson(3) 
+Id person: 3
+Firstname: Chuck
+Lastname: Norris
+Birthdate: 1990-01-01
+--------------------------------- 
+METHOD #3: updatePerson(3) 
+Printing the person just updated 
+Id person: 3
+Firstname: John
+Lastname: Doe
+Birthdate: 1990-01-01
+--------------------------------- 
+METHOD #4: createPerson(Person p) 
+Printing the person just updated 
+Id person: 5708
+Firstname: Maurizio
+Lastname: Marchese
+Birthdate: 1967-01-01
+--------------------------------- 
+METHOD #5: deletePerson(5708) 
+Deleted: true
+---------------------------------
+METHOD #6: readPersonHistory(3, "height") 
+0) 4
+0) 60
+0) 2015-11-18
+///////// 
+1) 7
+1) 1.7
+1) 2015-11-18
+///////// 
+2) 13
+2) 1.7
+2) 2015-11-18
+///////// 
+3) 17
+3) 1.7
+3) 2015-11-18
+///////// 
+---------------------------------
+METHOD #7: readMeasureTypes() 
+0) weight
+///////// 
+1) height
+///////// 
+2) heart rate
+///////// 
+---------------------------------
+METHOD #8: readPersonMeasure(3, "height", 4) 
+0) 4
+0) 60
+0) 2015-11-18
+///////// 
+---------------------------------
+METHOD #9: savePersonMeasure(6, HealthProfile hp) 
+Printing the health profile just created 
+Id measure: 4035
+Measure: weight
+Value: 75
+---------------------------------
+METHOD #10: updatePersonMeasure(3, Measure m) 
+Printing the measure just created 
+Id measure: 4
+Measure: 60
+Timestamp: 2015-11-18
+---------------------------------
