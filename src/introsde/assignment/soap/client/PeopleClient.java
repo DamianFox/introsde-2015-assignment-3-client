@@ -215,10 +215,4 @@ public class PeopleClient {
         bw.write(res);
         bw.close();
 	}
-	
-	/*private static void printAndLog(String message) {
-    	System.out.println(message);
-    	logWriter.println(message);
-    }*/
-
 }
