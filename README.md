@@ -11,7 +11,7 @@ In this assignment we have to provide a WSDL service, which manages People's Hea
 * [Server on Heroku][1]
 * [Server][2]
 
-## WSDL Functions handle by the server:
+## WSDL Functions handled by the server:
 
 * readPersonList()
 * readPerson(Long id)
